@@ -18,7 +18,13 @@ header{
 }
 
 header ul{
-
+    justify-content: left;
+    list-style-type: none;
+    margin: 20px;
+    position: left;
+    padding: 0;
+    display: flex;
+    margin-right: 20px;
 }
 
 .inicio{
@@ -50,8 +56,14 @@ header ul{
 
 footer{
     text-align: center;
+    margin
 }
 
 footer .img_footer{
-    width: 50%;
+    width: 250px;
+    height: 150px;
+}
+
+footer div{
+    padding: 40px;
 }
